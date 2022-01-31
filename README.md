@@ -1,33 +1,58 @@
-# Getting Started with Create React App
+# My Portfolio Site
+
+This project is a fully custom portfolio and personal site for myself. The whole site was designed and implemented by me. The goal was to make a site that I could show people about my work as well as getting more familiar with the React JavaScript framework.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Design
+
+The website was designed using the free UI design software [Figma](http://figma.com). The goal of the design was to create something cool looking that clearly showed my portfolio and skills while showing my interests like code, space, and design. The overall look and feel of the design is inspired visual studio code’s look and the layout is inspired but different to other portfolio projects I have seen on the internet.
+
+The fonts used for this project is [Inter](https://github.com/rsms/inter) and [Consolas](https://docs.microsoft.com/en-us/typography/font-list/consolas).
+
+![](C:\Users\jrmuy\Documents\GitHub\personal-site\assets\iMac - 1.png)
+
+Figma design for the first section of the website.
+
+<img src="C:\Users\jrmuy\Documents\GitHub\personal-site\assets\iMac - 2.png" style="zoom:70%;" />
+
+Figma design for the skills cards.
+
+## Implementation
+
+For this project, I chose to write it in React. I chose this because most of my projects are in Angular and I wanted some experience in the also popular framework of React. This was to test how quickly I could adapt to a new tool and language (jsx) as I hasn’t used React since sophomore year of college.
+
+All of the styles used for the website are made by myself with CSS based on what I designed in the Figma.
+
+### Orbit Animation
+
+The orbit animation on the right of the home page is the part that took the most work by itself. The animation uses a custom `<canvas>` element component that changes the rendered image based on the percentage of the scroll height. The canvas also preloads the images to improve the performance when scrolling.
+
+## Running the Project
+
+### Development server
 
 In the project directory, you can run:
 
-### `npm start`
+### Code scaffolding
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Build
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Running unit tests
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Running end-to-end tests
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Further help
 
 ### `npm run eject`
 
