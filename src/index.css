@@ -1,0 +1,37 @@
+body {
+   margin: 0;
+   color: white;
+   background-color: #282c34;
+   font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+   font-family: Consolas, source-code-pro, Menlo, Monaco, 'Courier New',
+      monospace;
+}
+
+@font-face {
+   font-family: 'Consolas';
+   src: local('Consolas'), url(./fonts/Consolas.ttf) format('truetype');
+}
+
+@font-face {
+   font-family: 'Inter';
+   src: url(./fonts/Inter-VariableFont.ttf);
+}
+html {
+   overflow: scroll;
+   overflow-x: hidden;
+}
+::-webkit-scrollbar {
+   width: 0; /* Remove scrollbar space */
+   background: transparent; /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+   background: #ff0000;
+}

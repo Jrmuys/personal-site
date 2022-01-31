@@ -1,0 +1,110 @@
+.banner-container {
+   height: 100vh;
+   /* margin-left: 10rem; */
+   width: 100%;
+   /* margin-left: auto; */
+   justify-content: right;
+   display: flex;
+}
+
+.subtitle-area {
+   padding: 0;
+   margin-top: 2rem;
+
+   width: 454px;
+}
+
+.title-text {
+   margin-top: 15rem;
+   font-family: Inter;
+   font-style: normal;
+   font-weight: 1000;
+   font-size: 96px;
+   line-height: 116px;
+}
+
+.banner-code-text {
+   font-family: Consolas;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 1rem;
+   line-height: 1.5rem;
+}
+
+.numbers {
+   padding: 0.4rem 0.6rem;
+   color: #5a5a5a;
+
+   border-right: 1px solid #4c5873;
+}
+
+.about {
+   background: #343944;
+   border: 1px solid #4c5873;
+   box-sizing: border-box;
+   border-radius: 4px;
+   display: flex;
+   padding: 0px;
+   width: max-content;
+   /* width: 506px; */
+}
+
+.about-text {
+   color: #aab1bd;
+   padding: 0.4rem 0.8rem;
+   padding-right: 2rem;
+}
+
+.button-area {
+   display: flex;
+   gap: 1rem;
+   margin-top: 1rem;
+}
+
+.banner-container button {
+   flex: 1;
+
+   display: flex;
+   justify-content: center;
+
+   background: #343944;
+   border: 1px solid #4c5873;
+   box-sizing: border-box;
+   border-radius: 4px;
+   display: flex;
+   padding: 0px;
+   cursor: pointer;
+
+   padding: 0.4rem 0.6rem;
+   font-family: Consolas;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 0.9rem;
+   line-height: 1em;
+}
+
+.blue {
+   color: #65b0ed;
+}
+
+.green {
+   color: #99c27c;
+}
+
+.dark-gray {
+   color: #5a626e;
+}
+
+.subtitle-area {
+   display: flex;
+   flex-direction: column;
+}
+
+.red {
+   color: #de6d77;
+}
+
+.banner-container button:hover {
+   background: #444a55;
+   border: 1px solid #586481;
+}

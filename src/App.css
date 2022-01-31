@@ -1,0 +1,33 @@
+.App {
+   /* text-align: center; */
+   /* position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: -17px; /* Increase/Decrease this value for cross-browser compatibility */
+   /* overflow-y: scroll; */
+}
+
+.body {
+   width: 100%;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 5rem;
+}
+
+.left {
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+}
+
+.right {
+   /* flex: 1; */
+}
+
+.scroll-container {
+   /* width: 100%;
+   height: 100%;
+   overflow: hidden;
+   position: relative; */
+}

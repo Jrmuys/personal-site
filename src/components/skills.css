@@ -1,0 +1,122 @@
+.right-justify {
+   justify-content: right;
+   display: flex;
+}
+
+.skills-container {
+   height: 100vh;
+}
+
+.skills-container > .card {
+   background: #343944;
+   border: 1px solid #4c5363;
+   box-sizing: border-box;
+   border-radius: 4px;
+   padding: 1rem 2rem;
+   width: 454px;
+   margin-bottom: 1rem;
+}
+
+.card > .title {
+   font-family: Inter;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 1.2rem;
+   line-height: 1.5rem;
+   /* identical to box height */
+
+   display: flex;
+   align-items: center;
+
+   color: #99c27c;
+}
+
+.card > .sub-title {
+   font-family: Consolas;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 1rem;
+   line-height: 1.5rem;
+   /* identical to box height */
+
+   display: flex;
+   align-items: center;
+
+   color: #aab1bd;
+}
+
+.link {
+   background: #343944;
+   border: 1px solid #4c5363;
+   box-sizing: border-box;
+   border-radius: 4px;
+
+   font-family: Consolas;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 0.8rem;
+   white-space: nowrap;
+   flex: 1;
+   padding: 0.4rem 0.6rem;
+
+   display: flex;
+   justify-content: center;
+
+   color: #de6d77;
+
+   cursor: pointer;
+}
+
+.link:hover {
+   background: #444a55;
+   border: 1px solid #586481;
+}
+
+.links {
+   margin-top: 0.5rem;
+   display: flex;
+   gap: 1rem;
+}
+
+.tools-heading {
+   font-family: Consolas;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 1rem;
+   line-height: 1.5rem;
+   /* identical to box height */
+
+   display: flex;
+   align-items: center;
+
+   color: #aab1bd;
+
+   margin-top: 0.5rem;
+}
+
+.logos img {
+   height: 32px;
+   border-radius: 4px;
+}
+
+.logos {
+   display: flex;
+   gap: 0.5rem;
+   margin-top: 0.5rem;
+}
+
+.img-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: white;
+   border-radius: 4px;
+   width: 32px;
+}
+
+/* Tooltip container */
+.tooltip {
+   position: relative;
+   display: inline-block;
+   border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
