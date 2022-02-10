@@ -127,7 +127,7 @@ export default class Skills extends Component {
                         Javascript
                      </ReactTooltip>
                      <ReactTooltip id="nodejs" place="bottom" effect="solid">
-                        Typescript
+                        NodeJS
                      </ReactTooltip>
                      <ReactTooltip id="mongodb" place="bottom" effect="solid">
                         MongoDB
@@ -137,6 +137,150 @@ export default class Skills extends Component {
                      </ReactTooltip>
                      <ReactTooltip id="aws" place="bottom" effect="solid">
                         Amazon Web Services
+                     </ReactTooltip>
+                  </div>
+               </div>
+               <div className="card">
+                  <div className="title">Front end</div>
+                  <div className="sub-title">
+                     Create
+                     <span className="blue">&nbsp;intuitive&nbsp; </span> and
+                     <span className="blue">&nbsp;beautiful&nbsp;</span>{' '}
+                     websites
+                  </div>
+
+                  <div className="links">
+                     <div className="link">Wayfinder</div>
+                     <div className="link">Sprawl</div>
+                     <div className="link">This</div>
+                  </div>
+                  <div className="tools-heading">Tools and languages</div>
+                  <div className="logos">
+                     {/* <div className="logo-img-container"> */}
+
+                     <img
+                        data-tip
+                        data-for="javascript"
+                        src="/images/logos/javascript.png"
+                        alt="javascript"
+                     />
+                     {/* </div> */}
+                     <img
+                        data-tip
+                        data-for="typescript"
+                        src="/images/logos/typescript.png"
+                        alt="typescript"
+                     />
+                     <img
+                        data-tip
+                        data-for="angular"
+                        src="/images/logos/angular.png"
+                        alt="angular"
+                     />
+                     <img
+                        data-tip
+                        data-for="react"
+                        src="/images/logos/react.png"
+                        alt="react"
+                     />
+                     <img
+                        data-tip
+                        data-for="html"
+                        src="/images/logos/html.png"
+                        alt="html"
+                     />
+                     <img
+                        data-tip
+                        data-for="css"
+                        src="/images/logos/css.png"
+                        alt="css"
+                     />
+                     <ReactTooltip
+                        id="javascript"
+                        place="bottom"
+                        effect="solid"
+                     >
+                        Javascript
+                     </ReactTooltip>
+                     <ReactTooltip
+                        id="typescript"
+                        place="bottom"
+                        effect="solid"
+                     >
+                        Typescript
+                     </ReactTooltip>
+                     <ReactTooltip id="angular" place="bottom" effect="solid">
+                        Angular
+                     </ReactTooltip>
+                     <ReactTooltip id="react" place="bottom" effect="solid">
+                        React
+                     </ReactTooltip>
+                     <ReactTooltip id="html" place="bottom" effect="solid">
+                        HTML
+                     </ReactTooltip>
+                     <ReactTooltip id="css" place="bottom" effect="solid">
+                        CSS
+                     </ReactTooltip>
+                  </div>
+               </div>
+               <div className="card">
+                  <div className="title">Front end</div>
+                  <div className="sub-title">
+                     Create
+                     <span className="blue">&nbsp;intuitive&nbsp; </span> and
+                     <span className="blue">&nbsp;beautiful&nbsp;</span>{' '}
+                     websites
+                  </div>
+
+                  <div className="links">
+                     <div className="link">Wayfinder</div>
+                     <div className="link">Mars Rover</div>
+                     <div className="link">This</div>
+                  </div>
+                  <div className="tools-heading">Tools and languages</div>
+                  <div className="logos">
+                     {/* <div className="logo-img-container"> */}
+
+                     <img
+                        data-tip
+                        data-for="illustrator"
+                        src="/images/logos/illustrator.png"
+                        alt="illustrator"
+                     />
+                     {/* </div> */}
+                     <img
+                        data-tip
+                        data-for="figma"
+                        src="/images/logos/figma.png"
+                        alt="figma"
+                     />
+                     <img
+                        data-tip
+                        data-for="xd"
+                        src="/images/logos/xd.png"
+                        alt="xd"
+                     />
+                     <img
+                        data-tip
+                        data-for="animate"
+                        src="/images/logos/animate.png"
+                        alt="animate"
+                     />
+                     <ReactTooltip
+                        id="illustrator"
+                        place="bottom"
+                        effect="solid"
+                     >
+                        Adobe Illustrator
+                     </ReactTooltip>
+                     <ReactTooltip id="figma" place="bottom" effect="solid">
+                        Figma
+                     </ReactTooltip>
+                     <ReactTooltip id="xd" place="bottom" effect="solid">
+                        Adobe XD
+                     </ReactTooltip>
+                     <ReactTooltip id="animate" place="bottom" effect="solid">
+                        Adobe Animate
                      </ReactTooltip>
                   </div>
                </div>

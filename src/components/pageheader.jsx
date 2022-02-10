@@ -49,6 +49,20 @@ export default class PageHeader extends Component {
                   </div>
                </button>
             </nav>
+            <div className="spacer"></div>
+            <nav id="right-nav">
+               <button className="social-button">
+                  <img src="/images/logos/linkedin.png" alt="linkedin" />
+                  LinkedIn
+               </button>
+               <button className="social-button">
+                  <img src="/images/logos/github.png" alt="github" />
+                  GitHub
+               </button>
+               <button className="social-button">
+                  <img src="/images/logos/email.png" alt="email" />
+               </button>
+            </nav>
          </div>
       );
    }
