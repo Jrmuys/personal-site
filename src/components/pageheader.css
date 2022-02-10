@@ -63,3 +63,26 @@ button:hover .number {
    gap: 1rem;
    margin-left: 2rem;
 }
+
+.spacer {
+   flex: 1;
+}
+
+#right-nav {
+   display: flex;
+   justify-content: center;
+}
+
+.social-button {
+   background: none;
+   border: none;
+   color: #d0d0d0;
+   font-size: 1rem;
+   display: flex;
+   align-items: center;
+   margin-left: 1rem;
+}
+.social-button img {
+   margin-right: 0.5rem;
+   height: 24px;
+}
