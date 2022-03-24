@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import firebase from 'firebase/app';
 import { initializeApp } from 'firebase/app';
 import { getAnalytics } from 'firebase/analytics';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 const firebaseConfig = {
    apiKey: 'AIzaSyCj51mgaUIVCnQbcR3AUtWj3ZNnJWzjrUw',
@@ -22,7 +23,11 @@ const analytics = getAnalytics(app);
 
 ReactDOM.render(
    <React.StrictMode>
-      <App />
+      <BrowserRouter>
+         <Routes>
+            <Route path="/" element={<App />} />
+         </Routes>
+      </BrowserRouter>
    </React.StrictMode>,
    document.getElementById('root')
 );

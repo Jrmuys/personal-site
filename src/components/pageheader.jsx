@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './pageheader.css';
-
+import { HashLink } from 'react-router-hash-link';
 export default class PageHeader extends Component {
    state = {
       isTop: true,
@@ -30,18 +30,22 @@ export default class PageHeader extends Component {
                <span style={{ fontWeight: 'bold' }}> Muyskens</span>
             </div>
             <nav id="left-nav">
-               <button className="button">
-                  <div className="number">1</div>
-                  <div className="code-text">
-                     about_me<span style={{ color: '#ABB2BE' }}>()</span>
-                  </div>
-               </button>
-               <button className="button">
-                  <div className="number">2</div>
-                  <div className="code-text">
-                     my_work<span style={{ color: '#ABB2BE' }}>()</span>
-                  </div>
-               </button>
+               <HashLink smooth to="/#about">
+                  <button className="button">
+                     <div className="number">1</div>
+                     <div className="code-text">
+                        about_me<span style={{ color: '#ABB2BE' }}>()</span>
+                     </div>
+                  </button>
+               </HashLink>
+               <HashLink smooth to="/#work">
+                  <button className="button">
+                     <div className="number">2</div>
+                     <div className="code-text">
+                        my_work<span style={{ color: '#ABB2BE' }}>()</span>
+                     </div>
+                  </button>
+               </HashLink>
                <button className="button">
                   <div className="number">3</div>
                   <div className="code-text">

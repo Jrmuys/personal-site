@@ -4,7 +4,7 @@ import './banner.css';
 export default class Banner extends Component {
    render() {
       return (
-         <div className="banner-container">
+         <div className="banner-container" id="about">
             <div className="text-area">
                <div className="text title-text">Hello.</div>
                <div className="banner-code-text subtitle-area">

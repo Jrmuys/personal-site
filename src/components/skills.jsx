@@ -2,11 +2,13 @@ import React, { Component } from 'react';
 import './skills.css';
 
 import ReactTooltip from 'react-tooltip';
+import { Link } from 'react-router-dom';
 
 export default class Skills extends Component {
    render() {
       return (
          <div className="right-justify">
+            <div className="anchor" id="work"></div>
             <div className="skills-container">
                <div className="card">
                   <div className="title">Embedded, Robotics, and IOT</div>
@@ -16,7 +18,14 @@ export default class Skills extends Component {
                      projects
                   </div>
                   <div className="links">
-                     <div className="link">Chess Timer</div>
+                     <a
+                        href="https://github.com/Jrmuys/chess-timer"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        className="link"
+                     >
+                        Chess Timer
+                     </a>
                      <div className="link">Mars Rover</div>
                      <div className="link">Printer Enclosure</div>
                   </div>
