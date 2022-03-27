@@ -86,3 +86,11 @@ button:hover .number {
    margin-right: 0.5rem;
    height: 24px;
 }
+
+.social-button:hover {
+   color: #f3f3f3;
+}
+
+a {
+   text-decoration: none;
+}

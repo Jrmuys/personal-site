@@ -46,26 +46,29 @@ export default class PageHeader extends Component {
                      </div>
                   </button>
                </HashLink>
-               <button className="button">
+               {/* <button className="button">
                   <div className="number">3</div>
                   <div className="code-text">
                      contact<span style={{ color: '#ABB2BE' }}>()</span>
                   </div>
-               </button>
+               </button> */}
             </nav>
             <div className="spacer"></div>
             <nav id="right-nav">
-               <button className="social-button">
+               <a
+                  href="https://www.linkedin.com/in/joel-muyskens-797658157/"
+                  className="social-button"
+               >
                   <img src="/images/logos/linkedin.png" alt="linkedin" />
                   LinkedIn
-               </button>
-               <button className="social-button">
+               </a>
+               <a href="https://github.com/Jrmuys" className="social-button">
                   <img src="/images/logos/github.png" alt="github" />
                   GitHub
-               </button>
-               <button className="social-button">
+               </a>
+               <a href="mailto:jrmuyskens@gmail.com" className="social-button">
                   <img src="/images/logos/email.png" alt="email" />
-               </button>
+               </a>
             </nav>
          </div>
       );

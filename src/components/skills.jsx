@@ -26,8 +26,22 @@ export default class Skills extends Component {
                      >
                         Chess Timer
                      </a>
-                     <div className="link">Mars Rover</div>
-                     <div className="link">Printer Enclosure</div>
+                     <a
+                        href="https://github.com/CalvinMars"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        className="link"
+                     >
+                        Mars Rover
+                     </a>
+                     <a
+                        href="https://github.com/CalvinMars/printer-enclosure"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        className="link"
+                     >
+                        Printer Enclosure
+                     </a>
                   </div>
                   <div className="tools-heading">Tools and languages</div>
                   <div className="logos">
@@ -89,9 +103,30 @@ export default class Skills extends Component {
                      <span className="blue">&nbsp;reliable&nbsp;</span> services
                   </div>
                   <div className="links">
-                     <div className="link">3D Print Website</div>
-                     <div className="link">Wayfinder</div>
-                     <div className="link">Sprawl</div>
+                     <a
+                        href="http://thriftyprint.io/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        className="link"
+                     >
+                        3D Print Website
+                     </a>
+                     <a
+                        href="https://github.com/Wayfinder-CS262-2020"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        className="link"
+                     >
+                        Wayfinder
+                     </a>
+                     <a
+                        href="https://github.com/Jrmuys/Sprawl"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        className="link"
+                     >
+                        Sprawl
+                     </a>
                   </div>
                   <div className="tools-heading">Tools and languages</div>
                   <div className="logos">
@@ -159,9 +194,30 @@ export default class Skills extends Component {
                   </div>
 
                   <div className="links">
-                     <div className="link">Wayfinder</div>
-                     <div className="link">Sprawl</div>
-                     <div className="link">This</div>
+                     <a
+                        href="https://github.com/Wayfinder-CS262-2020"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        className="link"
+                     >
+                        Wayfinder
+                     </a>
+                     <a
+                        href="https://github.com/Jrmuys/Sprawl"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        className="link"
+                     >
+                        Sprawl
+                     </a>
+                     <a
+                        href="https://github.com/Jrmuys/personal-site"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        className="link"
+                     >
+                        This
+                     </a>
                   </div>
                   <div className="tools-heading">Tools and languages</div>
                   <div className="logos">
@@ -242,9 +298,30 @@ export default class Skills extends Component {
                   </div>
 
                   <div className="links">
-                     <div className="link">Wayfinder</div>
-                     <div className="link">Mars Rover</div>
-                     <div className="link">This</div>
+                     <a
+                        href="https://github.com/Wayfinder-CS262-2020"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        className="link"
+                     >
+                        Wayfinder
+                     </a>
+                     <a
+                        href="https://github.com/CalvinMars"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        className="link"
+                     >
+                        Mars Rover
+                     </a>
+                     <a
+                        href="https://github.com/Jrmuys/personal-site"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        className="link"
+                     >
+                        This
+                     </a>
                   </div>
                   <div className="tools-heading">Tools and languages</div>
                   <div className="logos">
